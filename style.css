@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: #f5f7fa;
 }
 
 header {
@@ -10,7 +14,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 130px;
+  padding: 0 120px;
   div.name_and_logo {
     display: flex;
     align-items: center;
@@ -27,7 +31,39 @@ header {
       a {
         color: #18191f;
         text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
       }
+    }
+  }
+  div.log_sign {
+    button.login {
+      width: 77px;
+      height: 40px;
+      color: #f5f7fa;
+      border-radius: 6px;
+      color: #4caf4f;
+      font-size: 14px;
+      font-weight: 500;
+      border: none;
+    }
+    button.login:hover {
+      background-color: #d9dbdc;
+      cursor: pointer;
+    }
+    button.sign_up {
+      width: 91px;
+      height: 40px;
+      border-radius: 6px;
+      color: #ffffff;
+      background-color: #4caf4f;
+      font-size: 14px;
+      font-weight: 500;
+      border: none;
+    }
+    button.sign_up:hover {
+      background-color: #3e8a40;
+      cursor: pointer;
     }
   }
 }
