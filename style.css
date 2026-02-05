@@ -5,10 +5,10 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  background-color: #f5f7fa;
 }
 
 header {
+  background-color: #f5f7fa;
   width: 100%;
   height: 84px;
   display: flex;
@@ -40,7 +40,7 @@ header {
     button.login {
       width: 77px;
       height: 40px;
-      color: #f5f7fa;
+      background-color: #f5f7fa;
       border-radius: 6px;
       color: #4caf4f;
       font-size: 14px;
@@ -68,14 +68,16 @@ header {
   }
 }
 
-/* section first */
 main {
+  /* section first */
   section.first {
     padding: 0 144px;
-    margin-top: 96px;
+    background-color: #f5f7fa;
+    padding-top: 96px;
     margin-bottom: 40px;
+    height: 599px;
     div.container {
-      height: 599px;
+      height: 276pxpx;
       display: flex;
       gap: 104px;
       h2 {
@@ -116,6 +118,32 @@ main {
     div.circles {
       display: flex;
       justify-content: center;
+      margin-top: 70px;
     }
+  }
+
+  /* section second */
+  section.second {
+    padding: 0 144px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4d4d4d;
+  }
+  p {
+    font-size: 16px;
+    color: #717171;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 41px;
+  }
+  div.svgs {
+    display: flex;
+    gap: 136px;
   }
 }
