@@ -145,7 +145,7 @@ main {
     }
     div.svgs {
       display: flex;
-      gap: 136px;
+      gap: 128px;
     }
   }
 
@@ -239,20 +239,21 @@ main {
         margin-top: 16px;
         margin-bottom: 32px;
       }
-      button.learn_more {
-        width: 151px;
-        height: 52px;
-        border-radius: 4px;
-        background-color: #4caf4f;
-        font-size: 16px;
-        font-weight: 500;
-        color: white;
-        border: none;
-      }
-      button.learn_more:hover {
-        background-color: #3e8a40;
-      }
     }
+  }
+
+  button.learn_more {
+    width: 151px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: #4caf4f;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: none;
+  }
+  button.learn_more:hover {
+    background-color: #3e8a40;
   }
 
   /* section.fifth */
@@ -272,7 +273,8 @@ main {
         line-height: 44px;
         font-weight: 600;
         color: #4d4d4d;
-        width: 408px;
+        width: 390px;
+
         span {
           color: #4caf4f;
         }
@@ -301,6 +303,9 @@ main {
             font-weight: 400;
             color: #717171;
           }
+          p.booking {
+            width: 130px;
+          }
         }
       }
       div.top {
@@ -314,6 +319,83 @@ main {
       }
       span {
         display: inline-block;
+      }
+    }
+  }
+
+  /* section six */
+  section.six {
+    display: flex;
+    height: 434px;
+    padding: 50px 144px 0;
+    gap: 50px;
+    margin-bottom: 50px;
+    div.design {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 601px;
+      h3 {
+        font-size: 36px;
+        line-height: 44px;
+        font-weight: 600;
+        color: #4d4d4d;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #717171;
+        margin-top: 16px;
+        margin-bottom: 32px;
+      }
+    }
+  }
+
+  /* section seven */
+  section.seven {
+    background-color: #f5f7fa;
+    height: 390px;
+    display: flex;
+    padding: 32px 144px;
+    gap: 78px;
+    margin-bottom: 48px;
+    p.long_text {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #717171;
+      margin-bottom: 16px;
+    }
+    span {
+      color: #4caf4f;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    p.british {
+      font-size: 16px;
+      font-weight: 400;
+      color: #89939e;
+      margin-top: 8px;
+      margin-bottom: 32px;
+    }
+    div.container_two {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+    div.svgs_two {
+      display: flex;
+      gap: 41px;
+    }
+    div.meet {
+      display: flex;
+      gap: 6px;
+      p {
+        color: #4caf4f;
+        font-size: 20px;
+        font-weight: 600;
+        width: 182px;
       }
     }
   }
