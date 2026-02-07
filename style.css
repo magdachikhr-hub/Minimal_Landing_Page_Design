@@ -463,4 +463,40 @@ main {
       }
     }
   }
+  /* section nine */
+  section.nine {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f7fa;
+    padding-top: 32px;
+    gap: 32px;
+    h3 {
+      font-size: 64px;
+      font-weight: 600;
+      line-height: 76px;
+      color: #263238;
+      width: 840px;
+      text-align: center;
+    }
+    button.demo {
+      width: 178px;
+      height: 52px;
+      border-radius: 4px;
+      background-color: #4caf4f;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 500;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    button.demo:hover {
+      background-color: #3e8a40;
+      cursor: pointer;
+    }
+  }
 }
