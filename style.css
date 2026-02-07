@@ -216,6 +216,7 @@ main {
   /* section fourth */
   section.fourth {
     display: flex;
+    justify-content: center;
     height: 433px;
     padding: 0 144px;
     margin-bottom: 49px;
@@ -261,8 +262,7 @@ main {
     height: 288px;
     background-color: #f5f7fa;
     display: flex;
-    gap: 204px;
-
+    justify-content: center;
     padding: 64px 144px;
     div.reinvent {
       display: flex;
@@ -288,6 +288,7 @@ main {
       }
     }
     div.img_numbers {
+      margin-left: 204px;
       div.business {
         display: flex;
         align-items: center;
@@ -326,6 +327,7 @@ main {
   /* section six */
   section.six {
     display: flex;
+    justify-content: center;
     height: 434px;
     padding: 50px 144px 0;
     gap: 50px;
@@ -357,6 +359,7 @@ main {
     background-color: #f5f7fa;
     height: 390px;
     display: flex;
+    justify-content: center;
     padding: 32px 115px;
     gap: 78px;
     margin-bottom: 48px;
@@ -366,6 +369,7 @@ main {
       line-height: 24px;
       color: #717171;
       margin-bottom: 16px;
+      width: 748px;
     }
     span {
       color: #4caf4f;
