@@ -506,12 +506,12 @@ footer {
   height: 328px;
   background-color: #263238;
   display: flex;
-  align-items: center;
-  padding: 0 160px;
+  justify-content: center;
+  padding: 64px 101px;
   div.logo_media {
     display: flex;
     flex-direction: column;
-    margin-right: 250px;
+    margin-right: 230px;
     h2 {
       margin-bottom: 40px;
       font-size: 32px;
@@ -535,6 +535,66 @@ footer {
       gap: 16px;
       a.link {
         text-decoration: none;
+      }
+    }
+  }
+  div.nav_footer {
+    display: flex;
+    gap: 100px;
+    nav.footer_find {
+      h3 {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 24px;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        li {
+          list-style: none;
+          a {
+            text-decoration: none;
+            color: #f5f7fa;
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+    nav.center {
+      margin-right: 65px;
+    }
+  }
+  div.input_stay_up {
+    h3 {
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+    div.input_wrapper {
+      position: relative;
+      input {
+        background-color: #515b60;
+        width: 255px;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+        padding-left: 12px;
+        outline: none;
+        color: #d9dbe1;
+      }
+      input::placeholder {
+        color: #d9dbe1;
+        font-size: 14px;
+        font-weight: 400;
+      }
+      svg.input_svg {
+        position: absolute;
+        right: 12px;
+        top: 11px;
       }
     }
   }
