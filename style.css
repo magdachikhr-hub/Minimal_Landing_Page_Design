@@ -500,3 +500,42 @@ main {
     }
   }
 }
+
+/* footer */
+footer {
+  height: 328px;
+  background-color: #263238;
+  display: flex;
+  align-items: center;
+  padding: 0 160px;
+  div.logo_media {
+    display: flex;
+    flex-direction: column;
+    margin-right: 250px;
+    h2 {
+      margin-bottom: 40px;
+      font-size: 32px;
+      color: #ffffff;
+    }
+    span.rights {
+      margin-top: 8px;
+      margin-bottom: 40px;
+    }
+    span {
+      font-size: 14px;
+      font-weight: 400;
+      color: #f5f7fa;
+    }
+    div.logo_footer {
+      display: flex;
+      gap: 10px;
+    }
+    div.media_links {
+      display: flex;
+      gap: 16px;
+      a.link {
+        text-decoration: none;
+      }
+    }
+  }
+}
